@@ -1,15 +1,15 @@
 name: weighted_random
-description: A starting point for Dart libraries or applications.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+description: Weighted Random Algorithm for Dart libraries or applications.
+version: 0.1.0
+  repository: https://github.com/webcyou-org/dart_weighted_random
 
 environment:
-  sdk: '>=3.0.0-277.0.dev <4.0.0'
+    sdk: ">=3.0.0-277.0.dev <4.0.0"
 
 # Add regular dependencies here.
 dependencies:
-  # path: ^1.8.0
+    # path: ^1.8.0
 
 dev_dependencies:
-  lints: ^2.0.0
-  test: ^1.21.0
+    lints: ^2.0.0
+    test: ^1.21.0
