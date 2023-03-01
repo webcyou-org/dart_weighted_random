@@ -2,11 +2,11 @@ import 'dart:math' as math;
 
 Map<String, dynamic> weightedRandom<T>(List<T> items, List<int> weights) {
   if (items.length != weights.length) {
-    throw 'Items and weights must be of the same size';
+    throw Exception('Items and weights must be of the same size');
   }
 
   if (items.isEmpty) {
-    throw 'Items must not be empty';
+    throw Exception('Items must not be empty');
   }
 
   List<int> cumulativeWeights = [];
