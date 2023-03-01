@@ -8,8 +8,9 @@ void main() {
     });
 
     test('First Test', () {
-      final List<String> stringList = ["a", "b", "c", "d"];      
-      final Map<String, dynamic> result = weightedRandom<String>(stringList, [0, 0, 1, 0]);
+      final List<String> stringList = ["a", "b", "c", "d"];
+      final Map<String, dynamic> result =
+          weightedRandom<String>(stringList, [0, 0, 1, 0]);
 
       expect(result['index'], 2);
       expect(result['item'], 'c');
