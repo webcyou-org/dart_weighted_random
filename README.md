@@ -21,7 +21,7 @@ import 'package:weighted_random/weighted_random.dart';
 Example using
 
 ```dart
-final List<String> stringList = ["a","b", "c", "d"];
+final List<String> stringList = ["a", "b", "c", "d"];
 final Map<String, dynamic> result = weightedRandom<String>(stringList, [40, 20, 60, 20]);
 
 print(result);
@@ -30,7 +30,13 @@ print(result);
 Output
 
 ```dart
+{item: a, index: 0}
+or
 {item: b, index: 1}
+or
+{item: c, index: 2}
+or
+{item: d, index: 3}
 ```
 
 ## Author
@@ -42,4 +48,4 @@ Output
 -   <https://github.com/webcyou>
 -   <https://github.com/webcyou-org>
 -   <https://github.com/panicdragon>
--   <http://www.webcyou.com/>
+-   <https://www.webcyou.com/>
