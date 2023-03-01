@@ -4,7 +4,7 @@ version: 0.1.0
 repository: https://github.com/webcyou-org/dart_weighted_random
 
 environment:
-    sdk: ">=2.7.0 <4.0.0"
+    sdk: ">=2.12.0 <4.0.0"
 
 # Add regular dependencies here.
 dependencies:
