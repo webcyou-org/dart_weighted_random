@@ -1,4 +1,7 @@
 # Weighted Random for Dart
+<p align="center">
+  <img width="600" src="https://user-images.githubusercontent.com/1584153/222500856-0981101f-684b-4b05-b939-91258a379c4a.png">
+</p>
 
 ## Getting started
 
